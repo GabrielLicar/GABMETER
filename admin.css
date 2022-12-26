@@ -18,31 +18,13 @@ h1 {
     font-size: 2rem;
 }
 
-.emoji {
-    position: absolute;
-    top: 50%;
-    left: 81%;
-    margin: -1.4%;
-    margin-left: .1%;
-}
-
-.emoji input{
-    height: 3.7rem;
-    width: 5rem;
-}
-
-.main input{
-    display: flex;
-    font-size: 1.1rem;
-    margin: 1rem auto 1.5rem auto;
-    padding: .4rem;
-    width: 36rem;
-    height: 3rem;
+.options {
     font-family: 'Play', sans-serif;
+    font-size: 1rem;
 }
 
 .confirm button{
-    width: 2.2rem;
+    width: 4rem;
     height: 2rem;
     cursor: pointer;
 }

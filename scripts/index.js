@@ -1,5 +1,5 @@
 var retorno;
-var pensive = "Pensando...";
+var pensive = "Feliz...";
 
 function Pensando() {
     pensive = document.getElementById("pensado").value;

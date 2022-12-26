@@ -11,24 +11,20 @@
 <body>
     
     <h1>GABMETER</h1>
-    <div class="emoji">
-        <input id="emoji" type="text" list="emojis" />
-        <datalist id="emojis">
-            <option value="😀">
-            <option value="😁">
-            <option value="😔">
-            <option value="😴">
-        <!-- outros emojis -->
-        </datalist>
-        </div>
+    <script src="scripts/emoji.js">emoji</script>
     <div class="main">
-        <p>Como você está se sentindo agora!</p>
-        <input type="text" placeholder="Digite seu sentimento!" name="pensando" id="pensado">
-        <div class="confirm">
-            <button  onclick = "Pensando()">✔</button>
-        </div>
-    </div>
-
+        <form id="sentiment-form">
+            <label>Como você se sente hoje?</label><br>
+            <div class="options">
+                <input type="radio" name="sentiment" value="pensive" checked> Pensativo<br>
+                <input type="radio" name="sentiment" value="sad"> Triste<br>
+                <input type="radio" name="sentiment" value="happy"> Alegre<br>
+                <input type="radio" name="sentiment" value="sleep"> Sonolento<br>
+                <button type="submit">Enviar</button>
+            </div>  
+        </form>
+          <div id="response"></div>
+    </div> 
 </body>
-<script src="scripts/index.js"></script>
+
 </html>
